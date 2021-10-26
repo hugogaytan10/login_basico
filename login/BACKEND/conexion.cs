@@ -12,7 +12,7 @@ namespace login.BACKEND
         static MySqlConnection conect;
         public static bool conectar()
         {
-            string parametrosconect = "server=tarea-3-2.cnc48tqrkopz.us-east-1.rds.amazonaws.com;database=USUARIO;" + "uid=admin; pwd=Futbol.9";
+            string parametrosconect; //ESTA VARIABLETIENE TUS PARAMETROS PARA LA CONEXION A LA DB
             try
             {
                 conect = new MySqlConnection(parametrosconect);
